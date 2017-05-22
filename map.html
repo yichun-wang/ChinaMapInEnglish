@@ -1,0 +1,26 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+  <title>China map in English</title>
+  <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main.css?v=1.0" />
+  <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+  <script src="http://webapi.amap.com/maps?v=1.3"></script>
+</head>
+
+<body>
+  <div id="mapContainer"></div>
+
+  <script>
+
+    var map = new AMap.Map('mapContainer', {
+      center: [121.498586, 31.239637]
+    });
+    map.setLang("en");
+
+  </script>
+</body>
+
+</html>
